@@ -1,0 +1,15 @@
+{
+  "contenidoStr": "{\n  \"name\": \"ejercicio-3\",\n  \"version\": \"0.0.1\",\n  \"description\": \"holis\",\n  \"main\": \"ejercicio-3.js\",\n  \"scripts\": {\n    \"test\": \"node ejercicio-3.js\"\n  },\n  \"author\": \"yo\",\n  \"license\": \"ISC\"\n}\n",
+  "contenidoObj": {
+    "name": "ejercicio-3",
+    "version": "0.0.1",
+    "description": "holis",
+    "main": "ejercicio-3.js",
+    "scripts": {
+      "test": "node ejercicio-3.js"
+    },
+    "author": "yo",
+    "license": "ISC"
+  },
+  "size": 196
+}

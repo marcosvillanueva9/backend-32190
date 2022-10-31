@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-3",
+  "version": "0.0.1",
+  "description": "holis",
+  "main": "ejercicio-3.js",
+  "scripts": {
+    "test": "node ejercicio-3.js"
+  },
+  "author": "yo",
+  "license": "ISC"
+}
