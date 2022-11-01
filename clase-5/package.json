@@ -1,0 +1,6 @@
+{
+    "type": "module",
+    "dependencies": {
+        "productos": "1.1.0"
+    }
+}
