@@ -1,0 +1,60 @@
+1- 
+
+mkdir base
+
+2-
+
+mongod --dbpath ./base
+
+3- 
+
+mongosh
+
+4-
+
+show databases
+show dbs
+
+5-
+
+use sistema
+
+6- 
+
+db.usuarios.insertOne({nombre: 'Gabriel', edad: 23})
+
+7-
+
+db.usuarios.find()
+
+8-
+
+show collections
+
+9-
+
+db.usuarios.insertMany([
+    {nombre:"David", edad:18},
+    {nombre:"Andrea", edad:29},
+    {nombre:"Sandy", edad:26}
+    ])
+
+10 -
+
+db.usuarios.find()
+
+11 -
+
+db.productos.insertMany([
+    {nombre:"Leche", precio:40, stock:18},
+    {nombre:"Harina", precio: 50, stock:29},
+    {nombre:"Fideos", precio: 60, stock:26}
+    ])
+
+12 -
+
+show collections
+
+13 -
+
+db.productos.find()
