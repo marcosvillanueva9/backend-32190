@@ -1,0 +1,36 @@
+1- 
+
+use empresa
+
+2-
+
+db.createCollection('clientes')
+
+3-
+
+db.clientes.insertOne({nombre: "Alan", edad:23})
+
+4-
+
+db.clientes.insertMany([{nombre:'Messi', edad:35},{nombre:'Di maria', edad:34},{nombre:'Alvarez', edad:22}])
+
+5-
+
+db.articulos.insertMany([{nombre: 'Pantalones', precio: 100, stock: 3}, {nombre: 'Camisas', precio: 50, stock: 6}, {nombre: 'Zapatos', precio: 200, stock: 1}])
+
+6-
+
+show collections
+
+7-
+
+db.articulos.find()
+
+8-
+
+639a6628b5c6ead47c84d9f1
+
+9-
+
+db.articulos.estimatedDocumentCount()
+db.articulos.countDocuments()
