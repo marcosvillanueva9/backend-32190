@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^6.4.1",
+    "firebase-admin": "^11.4.0"
+  }
+}
