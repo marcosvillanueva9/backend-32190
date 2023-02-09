@@ -1,0 +1,436 @@
+Statistical profiling result from bloq-v8.log, (4064 ticks, 54 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     46    1.1%          /usr/lib/system/libsystem_malloc.dylib
+     36    0.9%          /usr/lib/system/libsystem_platform.dylib
+     20    0.5%          /usr/lib/system/libsystem_kernel.dylib
+     11    0.3%          /usr/lib/system/libsystem_m.dylib
+      6    0.1%          /usr/lib/system/libsystem_pthread.dylib
+      5    0.1%          /usr/lib/system/libsystem_c.dylib
+      3    0.1%          /usr/lib/libc++.1.dylib
+      1    0.0%          /usr/lib/libobjc.A.dylib
+      1    0.0%          /usr/lib/libc++abi.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    216    5.3%    5.5%  LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+     38    0.9%    1.0%  RegExp: [\u001B\u009B][[\]()#;?]*(?:(?:(?:[a-zA-Z\d]*(?:;[-a-zA-Z\d\/#&.:=?%@~_]*)*)?\u0007)|(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-ntqry=><~]))
+     34    0.8%    0.9%  LazyCompile: *next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+     30    0.7%    0.8%  LazyCompile: *groupArrayElements internal/util/inspect.js:1261:28
+     20    0.5%    0.5%  LazyCompile: *_storeHeader _http_outgoing.js:360:22
+     18    0.4%    0.5%  LazyCompile: *formatValue internal/util/inspect.js:738:21
+     13    0.3%    0.3%  LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+     10    0.2%    0.3%  LazyCompile: *header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      8    0.2%    0.2%  LazyCompile: *Writable.write internal/streams/writable.js:258:36
+      7    0.2%    0.2%  LazyCompile: *parserOnIncoming _http_server.js:809:26
+      7    0.2%    0.2%  LazyCompile: *nextTick internal/process/task_queues.js:101:18
+      7    0.2%    0.2%  LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      6    0.1%    0.2%  LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      6    0.1%    0.2%  LazyCompile: *inspect internal/util/inspect.js:284:17
+      6    0.1%    0.2%  LazyCompile: *formatArray internal/util/inspect.js:1509:21
+      6    0.1%    0.2%  LazyCompile: *end _http_outgoing.js:769:45
+      6    0.1%    0.2%  LazyCompile: *ReadableState internal/streams/readable.js:90:23
+      6    0.1%    0.2%  LazyCompile: *Readable.read internal/streams/readable.js:390:35
+      5    0.1%    0.1%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      4    0.1%    0.1%  LazyCompile: *setHeader _http_outgoing.js:556:57
+      4    0.1%    0.1%  LazyCompile: *matchKnownFields _http_incoming.js:157:26
+      3    0.1%    0.1%  LazyCompile: *parserOnHeadersComplete _http_common.js:75:33
+      3    0.1%    0.1%  LazyCompile: *normalizeParseOptions /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/qs/lib/parse.js:204:59
+      3    0.1%    0.1%  LazyCompile: *emit events.js:264:44
+      2    0.0%    0.1%  LazyCompile: *reduceToSingleString internal/util/inspect.js:1767:30
+      2    0.0%    0.1%  LazyCompile: *onwrite internal/streams/writable.js:394:17
+      2    0.0%    0.1%  LazyCompile: *normalizeString path.js:52:25
+      2    0.0%    0.1%  LazyCompile: *handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      2    0.0%    0.1%  LazyCompile: *formatProperty internal/util/inspect.js:1682:24
+      2    0.0%    0.1%  LazyCompile: *endReadableNT internal/streams/readable.js:1320:23
+      2    0.0%    0.1%  LazyCompile: *_addListener events.js:343:22
+      1    0.0%    0.0%  RegExp: ^text\/|^application\/(javascript|json)
+      1    0.0%    0.0%  RegExp: ^\/ramdom-debug\/?$
+      1    0.0%    0.0%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.0%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      1    0.0%    0.0%  RegExp: ;\s*charset\s*=
+      1    0.0%    0.0%  LazyCompile: *writevGeneric internal/stream_base_commons.js:118:23
+      1    0.0%    0.0%  LazyCompile: *writeOrBuffer internal/streams/writable.js:334:23
+      1    0.0%    0.0%  LazyCompile: *writeHead _http_server.js:250:19
+      1    0.0%    0.0%  LazyCompile: *set /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/application.js:359:23
+      1    0.0%    0.0%  LazyCompile: *popAsyncContext internal/async_hooks.js:515:25
+      1    0.0%    0.0%  LazyCompile: *join internal/util.js:327:14
+      1    0.0%    0.0%  LazyCompile: *hidden internal/errors.js:286:25
+      1    0.0%    0.0%  LazyCompile: *getHeader _http_outgoing.js:571:57
+      1    0.0%    0.0%  LazyCompile: *formatNumber internal/util/inspect.js:1384:22
+      1    0.0%    0.0%  LazyCompile: *fastparse /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/parseurl/index.js:95:20
+      1    0.0%    0.0%  LazyCompile: *clearBuffer internal/streams/writable.js:493:21
+      1    0.0%    0.0%  LazyCompile: *_addHeaderLine _http_incoming.js:263:24
+      1    0.0%    0.0%  LazyCompile: *Readable.on internal/streams/readable.js:857:33
+
+ [C++]:
+   ticks  total  nonlib   name
+   2392   58.9%   60.8%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    420   10.3%   10.7%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteStringILNS_8encodingE1EEEiRKN2v820FunctionCallbackInfoINS4_5ValueEEEEEEEvS9_
+     89    2.2%    2.3%  T _mig_strncpy_zerofill
+     74    1.8%    1.9%  T __ZN4node6crypto4Hash10HashUpdateERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     31    0.8%    0.8%  t __ZN4node6Buffer12_GLOBAL__N_116CreateFromStringERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     30    0.7%    0.8%  T __ZN4node13native_module15NativeModuleEnv15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     29    0.7%    0.7%  T _host_request_notification
+     25    0.6%    0.6%  t __ZN4node6Buffer12_GLOBAL__N_114ByteLengthUtf8ERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     25    0.6%    0.6%  T __os_log_simple_send
+     25    0.6%    0.6%  T __kernelrpc_mach_port_get_context
+     25    0.6%    0.6%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_6WritevERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+     21    0.5%    0.5%  T __ZN4node6crypto4Hash3NewERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     17    0.4%    0.4%  T __ZN4node10contextify17ContextifyContext15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     16    0.4%    0.4%  T _mach_get_times
+     12    0.3%    0.3%  t __ZN4node2fsL22InternalModuleReadJSONERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     11    0.3%    0.3%  t __ZN4nodeL9EnvGetterEN2v85LocalINS0_4NameEEERKNS0_20PropertyCallbackInfoINS0_5ValueEEE
+     10    0.2%    0.3%  t __ZN4node9inspector12_GLOBAL__N_120InspectorConsoleCallERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     10    0.2%    0.3%  t __ZN4node2fsL4ReadERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      8    0.2%    0.2%  t __ZN2v88internal6String7FlattenEPNS0_7IsolateENS0_6HandleIS1_EENS0_14AllocationTypeE
+      6    0.1%    0.2%  t __ZN4node2fsL4OpenERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      6    0.1%    0.2%  t __ZN2v88internal17PrototypeIterator7AdvanceEv
+      5    0.1%    0.1%  T __ZN4node7binding18GetInternalBindingERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      4    0.1%    0.1%  T __simple_asl_get_fd
+      4    0.1%    0.1%  T ___os_log_simple_offset
+      3    0.1%    0.1%  t __ZN4nodeL8EnvQueryEN2v85LocalINS0_4NameEEERKNS0_20PropertyCallbackInfoINS0_7IntegerEEE
+      3    0.1%    0.1%  t __ZN2v88internal12StringHasher20HashSequentialStringIhEEjPKT_iy
+      3    0.1%    0.1%  T _macx_backing_store_suspend
+      3    0.1%    0.1%  T _host_get_special_port
+      3    0.1%    0.1%  T __ZN4node7TTYWrap3NewERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      3    0.1%    0.1%  T __ZN2v88Function4CallENS_5LocalINS_7ContextEEENS1_INS_5ValueEEEiPS5_
+      2    0.0%    0.1%  t __ZThn8_N2v88internal23PointersUpdatingVisitorD1Ev
+      2    0.0%    0.1%  t __ZN2v88internalL26Builtin_Impl_HandleApiCallENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      2    0.0%    0.1%  t __ZN2v88internal22HandleScopeImplementer12EnterContextENS0_7ContextE
+      2    0.0%    0.1%  t __ZN2v88internal14LookupIteratorC2EPNS0_7IsolateENS0_6HandleINS0_6ObjectEEENS4_INS0_4NameEEEmNS4_INS0_10JSReceiverEEENS1_13ConfigurationE
+      2    0.0%    0.1%  t __ZN2v88internal12_GLOBAL__N_119HandleApiCallHelperILb0EEENS0_11MaybeHandleINS0_6ObjectEEEPNS0_7IsolateENS0_6HandleINS0_10HeapObjectEEESA_NS8_INS0_20FunctionTemplateInfoEEENS8_IS4_EENS0_16BuiltinArgumentsE
+      2    0.0%    0.1%  t __ZN2v88internal12_GLOBAL__N_117InstantiateObjectEPNS0_7IsolateENS0_6HandleINS0_18ObjectTemplateInfoEEENS4_INS0_10JSReceiverEEEb
+      2    0.0%    0.1%  T _mach_msg_destroy
+      2    0.0%    0.1%  T __ZN4node9AsyncWrap19EmitTraceEventAfterENS0_12ProviderTypeEd
+      2    0.0%    0.1%  T __ZN4node6crypto4Hash10HashDigestERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      2    0.0%    0.1%  T __ZN2v88internal11VariableMap7DeclareEPNS0_4ZoneEPNS0_5ScopeEPKNS0_12AstRawStringENS0_12VariableModeENS0_12VariableKindENS0_18InitializationFlagENS0_17MaybeAssignedFlagENS0_12IsStaticFlagEPb
+      1    0.0%    0.0%  t __pthread_main_thread_init
+      1    0.0%    0.0%  t __ZZN4node15LibuvStreamWrap9ReadStartEvEN3$_18__invokeEP11uv_handle_smP8uv_buf_t
+      1    0.0%    0.0%  t __ZZN4node15LibuvStreamWrap10InitializeEN2v85LocalINS1_6ObjectEEENS2_INS1_5ValueEEENS2_INS1_7ContextEEEPvEN3$_08__invokeERKNS1_20FunctionCallbackInfoIS5_EE
+      1    0.0%    0.0%  t __ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+      1    0.0%    0.0%  t __ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+      1    0.0%    0.0%  t __ZNSt3__113unordered_mapIPN2v87IsolateENS_4pairIPN4node23IsolatePlatformDelegateENS_10shared_ptrINS5_22PerIsolatePlatformDataEEEEENS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorINS4_IKS3_SB_EEEEEixERSH_
+      1    0.0%    0.0%  t __ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_
+      1    0.0%    0.0%  t __ZNSt3__112__hash_tableIN4node19CleanupHookCallbackENS2_4HashENS2_5EqualENS_9allocatorIS2_EEE4findIS2_EENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+      1    0.0%    0.0%  t __ZN4node6Buffer12_GLOBAL__N_111StringSliceILNS_8encodingE1EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node4utilL24GetOwnNonIndexPropertiesERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser5ProxyIMS1_FivEXadL_ZNS1_19on_message_completeEvEEE3RawEP18llhttp__internal_s
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser5ProxyIMS1_FiPKcmEXadL_ZNS1_6on_urlES4_mEEE3RawEP18llhttp__internal_sS4_m
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser19on_headers_completeEv
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_16Parser16on_message_beginEv
+      1    0.0%    0.0%  t __ZN4node12_GLOBAL__N_111GetLibuvNowERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node10AsyncHooks17pop_async_contextEd
+      1    0.0%    0.0%  t __ZN2v88internal17PrototypeIterator43AdvanceFollowingProxiesIgnoringAccessChecksEv
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_124ProbeInstantiationsCacheEPNS0_7IsolateENS0_6HandleINS0_13NativeContextEEEiNS1_11CachingModeE
+      1    0.0%    0.0%  t __ZN2v88internal11StringShape33DispatchToSpecificTypeWithoutCastIZNS1_22DispatchToSpecificTypeIZNS0_6String3GetEiE19StringGetDispatchertJRiEEET0_S4_DpOT1_E17CastingDispatchertJRS4_S6_EEES7_SA_
+      1    0.0%    0.0%  t __ZN2v88internal10JSReceiver11HasPropertyENS0_6HandleIS1_EENS2_INS0_4NameEEE
+      1    0.0%    0.0%  t __ZN2v84base19TemplateHashMapImplIPvS2_NS0_26HashEqualityThenKeyMatcherIS2_PFbS2_S2_EEENS0_23DefaultAllocationPolicyEE6ResizeES7_
+      1    0.0%    0.0%  T _task_policy_set
+      1    0.0%    0.0%  T _shm_open
+      1    0.0%    0.0%  T _semaphore_create
+      1    0.0%    0.0%  T _pthread_getschedparam
+      1    0.0%    0.0%  T _kdebug_typefilter
+      1    0.0%    0.0%  T __ZNK2v86String12WriteOneByteEPNS_7IsolateEPhiii
+      1    0.0%    0.0%  T __ZNK2v85Value8ToStringENS_5LocalINS_7ContextEEE
+      1    0.0%    0.0%  T __ZN4node9AsyncWrap9EmitAfterEPNS_11EnvironmentEd
+      1    0.0%    0.0%  T __ZN4node6loader10ModuleWrap8EvaluateERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node4EmitEPNS_11EnvironmentEdNS_10AsyncHooks6FieldsEN2v85LocalINS4_8FunctionEEE
+      1    0.0%    0.0%  T __ZN4node2fs5CloseERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node22PerIsolatePlatformData17RunForegroundTaskEP10uv_timer_s
+      1    0.0%    0.0%  T __ZN4node21InternalCallbackScopeD1Ev
+      1    0.0%    0.0%  T __ZN4node20InternalMakeCallbackEPNS_11EnvironmentEN2v85LocalINS2_6ObjectEEES5_NS3_INS2_8FunctionEEEiPNS3_INS2_5ValueEEENS_13async_contextE
+      1    0.0%    0.0%  T __ZN4node12NodePlatform10DrainTasksEPN2v87IsolateE
+      1    0.0%    0.0%  T __ZN4node10HandleWrap5CloseERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors25BoundFunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors23IsJSObjectFieldAccessorEPNS0_7IsolateENS0_6HandleINS0_3MapEEENS4_INS0_4NameEEEPNS0_10FieldIndexE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors20FunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal8Builtins7builtinEi
+      1    0.0%    0.0%  T __ZN2v88internal5Scope28AllocateVariablesRecursivelyEv
+      1    0.0%    0.0%  T __ZN2v88internal25Builtin_ArrayBufferIsViewEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal15AstValueFactory11InternalizeINS0_7IsolateEEEvPT_
+      1    0.0%    0.0%  T __ZN2v88internal10ApiNatives17InstantiateObjectEPNS0_7IsolateENS0_6HandleINS0_18ObjectTemplateInfoEEENS4_INS0_10JSReceiverEEE
+      1    0.0%    0.0%  T __ZN2v86String14NewFromOneByteEPNS_7IsolateEPKhNS_13NewStringTypeEi
+      1    0.0%    0.0%  T __ZN2v86Object3NewEPNS_7IsolateE
+      1    0.0%    0.0%  T __ZN2v820EscapableHandleScopeC2EPNS_7IsolateE
+      1    0.0%    0.0%  T __ZN2v811HandleScopeD1Ev
+      1    0.0%    0.0%  T __ZN2v811ArrayBuffer3NewEPNS_7IsolateEm
+
+ [Summary]:
+   ticks  total  nonlib   name
+    498   12.3%   12.7%  JavaScript
+   3383   83.2%   86.0%  C++
+    312    7.7%    7.9%  GC
+    129    3.2%          Shared libraries
+     54    1.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   2049   67.0%   50.4%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    706   23.1%   17.4%  T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    276    9.0%    6.8%  T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+     16    0.5%    0.4%  T _host_request_notification
+      2    0.1%    0.0%  t __ZN4node9inspector12_GLOBAL__N_120InspectorConsoleCallERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      2    0.1%    0.0%  T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZNK2v86String12WriteOneByteEPNS_7IsolateEPhiii
+      1    0.0%    0.0%  T __ZNK2v85Value8ToStringENS_5LocalINS_7ContextEEE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors25BoundFunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors20FunctionLengthGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal28Builtin_ObjectDefinePropertyEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal25Builtin_ArrayBufferIsViewEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal19Builtin_ArrayConcatEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal18Builtin_ArrayShiftEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v811HandleScopeD1Ev
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   2392   58.9%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+   1155   48.3%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    791   68.5%      LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+    791  100.0%        LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+    791  100.0%          LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    791  100.0%            LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     74    6.4%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+     31   41.9%        LazyCompile: *formatProperty internal/util/inspect.js:1682:24
+     23   74.2%          LazyCompile: *formatArray internal/util/inspect.js:1509:21
+     23  100.0%            LazyCompile: ~formatRaw internal/util/inspect.js:807:19
+      8   25.8%          LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      8  100.0%            LazyCompile: *formatValue internal/util/inspect.js:738:21
+      9   12.2%        LazyCompile: *groupArrayElements internal/util/inspect.js:1261:28
+      7   77.8%          LazyCompile: ~reduceToSingleString internal/util/inspect.js:1767:30
+      5   71.4%            LazyCompile: ~formatRaw internal/util/inspect.js:807:19
+      2   28.6%            LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      2   22.2%          LazyCompile: *reduceToSingleString internal/util/inspect.js:1767:30
+      2  100.0%            LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      6    8.1%        LazyCompile: ~expressInit /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/middleware/init.js:29:30
+      6  100.0%          LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      6  100.0%            LazyCompile: ~trim_prefix /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:293:23
+      5    6.8%        LazyCompile: ~match /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:110:39
+      5  100.0%          LazyCompile: ~matchLayer /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:583:20
+      5  100.0%            LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      3    4.1%        LazyCompile: ~format /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/content-type/index.js:65:17
+      2   66.7%          LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      2  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1   33.3%          LazyCompile: ~setCharset /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:248:41
+      1  100.0%            LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      3    4.1%        LazyCompile: ~entitytag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/etag/index.js:39:20
+      3  100.0%          LazyCompile: ~etag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/etag/index.js:70:15
+      2   66.7%            LazyCompile: ~generateETag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:273:32
+      1   33.3%            LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      3    4.1%        LazyCompile: ~calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+      3  100.0%          LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      3  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      2    2.7%        LazyCompile: ~parse /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/content-type/index.js:106:16
+      1   50.0%          LazyCompile: ~setCharset /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:248:41
+      1  100.0%            LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1   50.0%          LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2    2.7%        LazyCompile: ~checkInvalidHeaderChar _http_common.js:230:32
+      2  100.0%          LazyCompile: ~<anonymous> _http_outgoing.js:546:45
+      1   50.0%            LazyCompile: ~hidden internal/errors.js:286:25
+      1   50.0%            LazyCompile: *hidden internal/errors.js:286:25
+      2    2.7%        LazyCompile: ~<anonymous> internal/per_context/primordials.js:23:10
+      1   50.0%          LazyCompile: ~init internal/util/debuglog.js:70:16
+      1  100.0%            LazyCompile: ~debug internal/util/debuglog.js:74:15
+      1   50.0%          LazyCompile: ~finalizeResolution internal/modules/esm/resolve.js:249:28
+      1  100.0%            LazyCompile: ~moduleResolve internal/modules/esm/resolve.js:684:23
+      2    2.7%        LazyCompile: *next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      2  100.0%          LazyCompile: ~expressInit /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/middleware/init.js:29:30
+      2  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    1.4%        LazyCompile: ~populateMaps /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/mime-types/index.js:154:23
+      1  100.0%          Eval: ~<anonymous> /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/mime-types/index.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.4%        LazyCompile: ~pathtoRegexp /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/path-to-regexp/index.js:28:22
+      1  100.0%          LazyCompile: ~Layer /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:33:15
+      1  100.0%            LazyCompile: ~route /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:502:29
+      1    1.4%        LazyCompile: ~header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      1  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1    1.4%        LazyCompile: *header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      1  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1    1.4%        LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    1.4%        Eval: ~<anonymous> /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     18    1.6%      LazyCompile: ~parse /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/content-type/index.js:106:16
+     15   83.3%        LazyCompile: ~setCharset /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:248:41
+     15  100.0%          LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+     15  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      3   16.7%        LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      3  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      3  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     18    1.6%      LazyCompile: *groupArrayElements internal/util/inspect.js:1261:28
+     16   88.9%        LazyCompile: ~reduceToSingleString internal/util/inspect.js:1767:30
+     13   81.3%          LazyCompile: ~formatRaw internal/util/inspect.js:807:19
+     13  100.0%            LazyCompile: *formatValue internal/util/inspect.js:738:21
+      3   18.8%          LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      3  100.0%            LazyCompile: *formatValue internal/util/inspect.js:738:21
+      2   11.1%        LazyCompile: *reduceToSingleString internal/util/inspect.js:1767:30
+      2  100.0%          LazyCompile: *formatRaw internal/util/inspect.js:807:19
+      2  100.0%            LazyCompile: *formatValue internal/util/inspect.js:738:21
+     16    1.4%      LazyCompile: *header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+     10   62.5%        LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+     10  100.0%          LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     10  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      6   37.5%        LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      6  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      6  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     12    1.0%      LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     12  100.0%        LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     12  100.0%          LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     12  100.0%            LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+    272   11.4%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+    272  100.0%      LazyCompile: ~stringify /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:1145:20
+    272  100.0%        LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+    272  100.0%          LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+    272  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    192    8.0%    LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+    192  100.0%      LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    192  100.0%        LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+    192  100.0%          LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+    145   75.5%            LazyCompile: *next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+     47   24.5%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     42    1.8%    LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+     42  100.0%      LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     42  100.0%        LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     42  100.0%          LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     42  100.0%            LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+
+    420   10.3%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteStringILNS_8encodingE1EEEiRKN2v820FunctionCallbackInfoINS4_5ValueEEEEEEEvS9_
+    420  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    420  100.0%      LazyCompile: ~handleWriteReq internal/stream_base_commons.js:47:24
+    420  100.0%        LazyCompile: ~writeGeneric internal/stream_base_commons.js:143:22
+    266   63.3%          LazyCompile: ~Socket._writeGeneric net.js:759:42
+    266  100.0%            LazyCompile: ~Socket._write net.js:796:35
+    154   36.7%          LazyCompile: *Writable.write internal/streams/writable.js:258:36
+    154  100.0%            LazyCompile: ~value internal/console/constructor.js:258:20
+
+    216    5.3%  LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+    214   99.1%    LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+    214  100.0%      LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    214  100.0%        LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+    214  100.0%          LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+    165   77.1%            LazyCompile: *next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+     49   22.9%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
+     89    2.2%  T _mig_strncpy_zerofill
+
+     74    1.8%  T __ZN4node6crypto4Hash10HashUpdateERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     74  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     74  100.0%      LazyCompile: ~update internal/crypto/hash.js:74:40
+     74  100.0%        LazyCompile: ~entitytag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/etag/index.js:39:20
+     74  100.0%          LazyCompile: ~etag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/etag/index.js:70:15
+     39   52.7%            LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+     35   47.3%            LazyCompile: ~generateETag /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:273:32
+
+     54    1.3%  UNKNOWN
+     34   63.0%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+     23   67.6%      LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+     23  100.0%        LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+     23  100.0%          LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     23  100.0%            LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      3    8.8%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      2   66.7%        LazyCompile: ~format /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/content-type/index.js:65:17
+      1   50.0%          LazyCompile: ~setCharset /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:248:41
+      1  100.0%            LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1   50.0%          LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1   33.3%        LazyCompile: ~getOwn internal/bootstrap/loaders.js:153:16
+      1  100.0%          LazyCompile: ~syncExports internal/bootstrap/loaders.js:258:14
+      1  100.0%            LazyCompile: ~<anonymous> internal/bootstrap/loaders.js:244:15
+      1    2.9%      LazyCompile: ~setHeader _http_outgoing.js:556:57
+      1  100.0%        LazyCompile: ~header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      1  100.0%          LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    2.9%      LazyCompile: ~nextTick internal/process/task_queues.js:101:18
+      1  100.0%        LazyCompile: ~onwrite internal/streams/writable.js:394:17
+      1  100.0%          LazyCompile: ~afterWriteDispatched internal/stream_base_commons.js:151:30
+      1  100.0%            LazyCompile: ~writeGeneric internal/stream_base_commons.js:143:22
+      1    2.9%      LazyCompile: ~inspect internal/util/inspect.js:284:17
+      1  100.0%        LazyCompile: ~formatWithOptionsInternal internal/util/inspect.js:1893:35
+      1  100.0%          LazyCompile: ~formatWithOptions internal/util/inspect.js:1885:27
+      1  100.0%            LazyCompile: ~value internal/console/constructor.js:321:20
+      1    2.9%      LazyCompile: ~destroy internal/streams/destroy.js:5:17
+      1  100.0%        LazyCompile: ~afterShutdown net.js:428:23
+      1    2.9%      LazyCompile: ~createPool buffer.js:158:20
+      1  100.0%        Eval: ~<anonymous> buffer.js:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1  100.0%            LazyCompile: ~nativeModuleRequire internal/bootstrap/loaders.js:303:29
+      1    2.9%      LazyCompile: ~_storeHeader _http_outgoing.js:360:22
+      1  100.0%        LazyCompile: ~writeHead _http_server.js:250:19
+      1  100.0%          LazyCompile: ~_implicitHeader _http_server.js:245:68
+      1  100.0%            LazyCompile: ~write_ _http_outgoing.js:678:16
+      1    2.9%      LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1  100.0%        LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    2.9%      LazyCompile: *header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      1  100.0%        LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1    1.9%    T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      1  100.0%        LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+      1  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      1    1.9%    LazyCompile: ~Writable.write internal/streams/writable.js:258:36
+      1  100.0%      LazyCompile: ~_flushOutput _http_outgoing.js:889:63
+      1  100.0%        LazyCompile: ~_writeRaw _http_outgoing.js:330:19
+      1  100.0%          LazyCompile: ~_send _http_outgoing.js:305:49
+      1  100.0%            LazyCompile: ~write_ _http_outgoing.js:678:16
+      1    1.9%    LazyCompile: *formatValue internal/util/inspect.js:738:21
+      1  100.0%      LazyCompile: *inspect internal/util/inspect.js:284:17
+      1  100.0%        LazyCompile: ~formatWithOptionsInternal internal/util/inspect.js:1893:35
+      1  100.0%          LazyCompile: ~formatWithOptions internal/util/inspect.js:1885:27
+      1  100.0%            LazyCompile: ~value internal/console/constructor.js:321:20
+
+     46    1.1%  /usr/lib/system/libsystem_malloc.dylib
+     15   32.6%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      5   33.3%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      3   60.0%        LazyCompile: ~checkInvalidHeaderChar _http_common.js:230:32
+      3  100.0%          LazyCompile: ~<anonymous> _http_outgoing.js:546:45
+      2   66.7%            LazyCompile: *hidden internal/errors.js:286:25
+      1   33.3%            LazyCompile: ~hidden internal/errors.js:286:25
+      2   40.0%        LazyCompile: *Writable.write internal/streams/writable.js:258:36
+      2  100.0%          LazyCompile: ~_flushOutput _http_outgoing.js:889:63
+      2  100.0%            LazyCompile: ~_writeRaw _http_outgoing.js:330:19
+      2   13.3%      LazyCompile: ~parse /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/content-type/index.js:106:16
+      2  100.0%        LazyCompile: ~setCharset /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/utils.js:248:41
+      2  100.0%          LazyCompile: ~send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      2  100.0%            LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2   13.3%      LazyCompile: ~emitAfterScript internal/async_hooks.js:479:25
+      2  100.0%        LazyCompile: ~processTicksAndRejections internal/process/task_queues.js:65:35
+      2   13.3%      LazyCompile: *nextTick internal/process/task_queues.js:101:18
+      2  100.0%        LazyCompile: ~onwrite internal/streams/writable.js:394:17
+      2  100.0%          LazyCompile: ~afterWriteDispatched internal/stream_base_commons.js:151:30
+      2  100.0%            LazyCompile: ~writeGeneric internal/stream_base_commons.js:143:22
+      1    6.7%      LazyCompile: ~nextTick internal/process/task_queues.js:101:18
+      1  100.0%        LazyCompile: ~endReadable internal/streams/readable.js:1310:21
+      1  100.0%          LazyCompile: ~Readable.read internal/streams/readable.js:390:35
+      1  100.0%            LazyCompile: ~resume_ internal/streams/readable.js:965:17
+      1    6.7%      LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1  100.0%        LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            LazyCompile: ~dispatch /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    6.7%      LazyCompile: *header /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:777:29
+      1  100.0%        LazyCompile: *send /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1    6.7%      LazyCompile: *calcularRandoms file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:5:25
+      1  100.0%        LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      1  100.0%          LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: ~next /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      3    6.5%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+      3  100.0%      LazyCompile: ~stringify /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:1145:20
+      3  100.0%        LazyCompile: ~json /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/response.js:250:25
+      3  100.0%          LazyCompile: ~<anonymous> file:///Users/tato/js/backend-32190/clase-32/1-ejercicio-1/server.js:15:26
+      3  100.0%            LazyCompile: ~handle /Users/tato/js/backend-32190/clase-32/1-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
