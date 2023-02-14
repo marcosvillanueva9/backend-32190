@@ -1,8 +1,11 @@
 import express from 'express'
 import cluster from 'cluster'
 import os from 'os'
+import compression from 'compression'
 
 const app = express()
+
+//app.use(compression())
 
 const MODO = process.argv[2] || 'FORK'
 
