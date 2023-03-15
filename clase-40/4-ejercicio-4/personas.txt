@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "nombre": "Luke",
+    "apellido": "Skywalker",
+    "dni": "20100100"
+  },
+  {
+    "id": 2,
+    "nombre": "Luke",
+    "apellido": "Skywalker",
+    "dni": "20100100"
+  },
+  {
+    "id": 2,
+    "nombre": "Luke",
+    "apellido": "Skywalker",
+    "dni": "20100100"
+  }
+]
