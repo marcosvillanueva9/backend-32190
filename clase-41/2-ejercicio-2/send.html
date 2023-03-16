@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send palabra</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/faker@5.5.3/dist/faker.min.js"></script>
+</head>
+<body>
+
+    <button onclick="sendPalabra()">Palabra Random</button>
+    
+    <script>
+
+        async function sendPalabra() {
+            let palabra = faker.random.word();
+            let {data: respuesta} = await axios.post('http://localhost:8080/palabras', {palabra})
+            console.log(respuesta);
+        }
+    </script>
+
+</body>
+</html>
