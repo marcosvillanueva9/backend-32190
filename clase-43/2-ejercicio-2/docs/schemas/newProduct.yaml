@@ -1,0 +1,18 @@
+# NewProduct
+components:
+  requestBodies:
+    NewProduct:
+      type: object
+      required:
+        - nombre
+        - precio
+      properties:
+        nombre:
+          type: string
+          description: Nombre o Titulo de un Producto
+        precio:
+          type: number
+          description: Valor numerico de cada Producto
+      example:
+        nombre: leche
+        precio: 200
