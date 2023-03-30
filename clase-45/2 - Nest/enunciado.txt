@@ -1,0 +1,7 @@
+Realizar una aplicación backend que utilice el framework Nest, donde dispondremos de un recurso llamado autos, que me permita por ruta get listar los autos almacenados.
+
+Disponer de una ruta post para agregar un auto con su marca, modelo y año.
+
+Incorporar varios autos a través de postman y verificar que ellos estén cargados. La persistencia se realizará en memoria.
+
+Incorporar Swagger y realizar estas mismas acciones a través de dicha interfaz.

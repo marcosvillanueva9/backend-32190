@@ -1,0 +1,15 @@
+Crear una aplicación backend, utilizando el framework Adonis, que contenga dos rutas:
+1) '/sin-controller' es una ruta gestionada sin controlador
+2) '/con-controller' es una ruta gestionada con controlador
+
+Ambas rutas recibirán una frase por query params y la representaran en una vista edge mediante dos listas ordenadas: una que muestre las palabras en orden y la otra que lo haga en orden invertido.
+
+Ej entradas: 
+http://127.0.0.1:3333/sin-controller?palabras=hola mundo como están todos ustedes!
+http://127.0.0.1:3333/con-controller?palabras=hola mundo como están todos ustedes!
+
+La ruta '/sin-controller' debe realizar el proceso sin utilizar un controlador de ruta, mientras que '/con-controller' si.
+
+Representar tambíen en la vista, si la respuesta viene de un proceso u otro.
+
+(Adjunto dos png con la vista para cada caso)

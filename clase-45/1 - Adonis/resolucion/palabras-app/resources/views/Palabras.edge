@@ -1,0 +1,16 @@
+<h1>{{titulo}}</h1>
+
+<h2>Palabras</h2>
+<ol>
+    @each(palabra in arrayPalabras)
+        <li>{{ palabra }}</li>
+    @endeach
+</ol>
+
+<hr>
+<h2>Palabras Invertidas</h2>
+<ol>
+    @each(palabra in arrayPalabrasInvertidas)
+    <li>{{ palabra }}</li>
+    @endeach
+</ol>
